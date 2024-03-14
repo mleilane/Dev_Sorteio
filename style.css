@@ -1,0 +1,115 @@
+/*  */
+
+* {
+    /* estilos globai - estamos retirando os estilos aplicados por padrão pelo navegador */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    position: fixed; /* Define a posição fixa */
+
+    background-color: #3533cd;
+    /* Gradiente linear */
+    background-image: linear-gradient(90deg, #000000, #3533cd);
+    width: 100vw; /* Define a largura da caixa de entrada */
+    height: 100vw; /* Define a altura da caixa de entrada */
+}
+
+.titulo p{
+    color: #ffff; /* Define a cor do texto */
+    font-size: 90px; /* Define o tamanho da fonte */
+    font-weight: bold; /* Define a espessura da fonte*/
+    margin-left: 5vw;
+    margin-top: 80px;
+
+
+}
+
+.titulo{
+
+    display: flex;
+    align-items: center; /* Alinha os itens verticalmente */
+    margin-left: -90px;
+    
+}
+
+.logo{
+    margin-left: 9vw; /* margem esquerda */
+    margin-top: 80px;
+    
+
+}   
+
+
+
+.titulo-input{
+    color: #ffff; /* Define a cor do texto */
+    font-size: 32px; /* Define o tamanho da fonte */
+    font-weight: lighter; /* Define a espessura da fonte*/
+    margin-left: 42vw; /* margem esquerda */
+    margin-bottom: 10px;
+    
+   
+}
+
+
+input{
+
+    width: 300px; /* Define a largura da caixa de entrada */
+    height: 50px; /* Define a altura da caixa de entrada */
+    padding: 10px; /* Adiciona um preenchimento interno à caixa de entrada */
+    border-radius: 10px; /* cantos arredondados  */
+    background-color: #E0E2DB;  /* cor da caixa do input  */
+    border: none;
+    margin-bottom: 30px;
+    cursor: pointer;
+    
+   
+
+}
+
+input::placeholder {
+    color: #080707; /* Define a cor do texto do placeholder */
+    font-size: 20px; /* Define o tamanho da fonte do placeholder */
+    font-weight: lighter; /* Define a espessura da fonte do placeholder */
+    text-align: center; /* Centraliza o texto do placeholder */
+    
+}
+
+button{
+
+    width: 300px; /* Define a largura */
+    height: 50px; /* Define a altura*/
+    border-radius: 10px;
+    background-color: #E6AF2E;
+    color: #080707; /* Define a cor do texto */
+    font-size: 20px; /* Define o tamanho da fonte */
+    font-weight: bold; /* Define a espessura da fonte */
+    border: none;
+    cursor: pointer;
+
+    
+}
+
+.interaction {
+    text-align: center; /* Alinha os elementos internos ao centro */
+}
+
+.interaction input {
+    display: inline-block;/* Faz com que os inputs fiquem lado a lado */
+    vertical-align: top; /* Alinha os inputs verticalmente no topo */
+    margin-right: 10px; /* Adiciona um espaço entre os inputs */
+    height: 50px; /* Define a altura*/
+    
+    
+    
+}
+
+.interaction button{
+display: block; /* Faz com que o botão fique em uma nova linha */
+margin-top: 15px; /* Adiciona um espaço entre os inputs e o botão */
+margin-left: auto;
+margin-right: auto;
+}
