@@ -7,31 +7,32 @@
   box-sizing: border-box;
 }
 
-body{
+body {
+  overflow: hidden; /* Remove a barra de rolagem */
 
-    overflow: hidden; /* Remove a barra de rolagem */
-}
+  /*margin: 0;
+  padding: 0;*/
+  box-sizing: border-box;
 
-
-.container {
-
-
-  background-image: url('./img/logo2.png');
-  /* Define a imagem do logo como plano de fundo */
+  background-image: url("./img/logo2.png");
+  /* Define a imagem de fundo */
   background-size: cover;
-  /* Faz com que a imagem cubra toda a área do container */
+  /* Faz com que a imagem cubra toda a área do body */
   background-position: center;
   /* Centraliza a imagem */
+}
 
-
-
-  
-
+.container {
   width: 100vw;
-  /* Define a largura da caixa de entrada */
-  height: 100vw;
-  /* Define a altura da caixa de entrada */
- 
+  /* Define a largura do container para ocupar toda a largura da tela */
+  height: 100vh;
+  /* Define a altura do container para ocupar toda a altura da tela */
+  display: flex;
+  /* Permite que os elementos dentro do container sejam alinhados verticalmente e horizontalmente */
+  align-items: center;
+  /* Alinha os itens verticalmente no centro */
+  justify-content: center;
+  /* Alinha os itens horizontalmente no centro */
 }
 
 .titulo h1 {
@@ -41,8 +42,8 @@ body{
   /* Define o tamanho da fonte */
   font-weight: bold;
   /* Define a espessura da fonte*/
-  margin-left: 5vw;
-  margin-top: 20px;
+  /*margin-left: 5vw;*/
+  margin-top: 10px;
 }
 
 .titulo {
@@ -63,16 +64,16 @@ body{
 .titulo-input {
   color: #ffff;
   /* Define a cor do texto */
-  font-size: 48px;
+  font-size: 80px;
   /* Define o tamanho da fonte */
-  font-weight: bold;
+  /*font-weight: bold;*/
   /* Define a espessura da fonte*/
   margin-left: 14vw;
   /* margem esquerda */
   display: flex;
   align-items: center;
+  margin-top: 285px;
   margin-bottom: 40px;
-  margin-top: 55px;
 }
 
 input {
@@ -84,17 +85,21 @@ input {
   /* Adiciona um preenchimento interno à caixa de entrada */
   border-radius: 10px;
   /* cantos arredondados  */
-  background-color: #e0e2db;
+  background-color: #C8A2C8;
   /* cor da caixa do input  */
   border: none;
+  margin-top: 40px;
   margin-bottom: 40px;
   cursor: pointer;
+  font-size: 80px;
+  text-align: center;
+  /* Centraliza o texto do placeholder */
 }
 
 input::placeholder {
   color: #080707;
   /* Define a cor do texto do placeholder */
-  font-size: 35px;
+  font-size: 80px;
   /* Define o tamanho da fonte do placeholder */
   font-weight: lighter;
   /* Define a espessura da fonte do placeholder */
@@ -110,10 +115,10 @@ button {
 
   margin-bottom: 40px;
   border-radius: 10px;
-  background-color: #e6af2e;
+  background-color: #9400D3;
   color: #080707;
   /* Define a cor do texto */
-  font-size: 35px;
+  font-size: 80px;
   /* Define o tamanho da fonte */
   font-weight: bold;
   /* Define a espessura da fonte */
@@ -133,18 +138,21 @@ button {
   /* Alinha os inputs verticalmente no topo */
   margin-right: 10px;
   /* Adiciona um espaço entre os inputs */
-  height: 90px;
+  height: 150px;
   /* Define a altura*/
-  width: 550px;
+  width: 800px;
 }
 
 .interaction button {
   display: block;
   /* Faz com que o botão fique em uma nova linha */
-  margin-top: 15px;
+  margin-top: 100px;
   /* Adiciona um espaço entre os inputs e o botão */
   margin-left: auto;
   margin-right: auto;
+  height: 150px;
+  /* Define a altura*/
+  width: 800px;
 }
 
 .container-interaction {
@@ -154,33 +162,37 @@ button {
   /* largura*/
   min-height: 50vh;
 
-  background: transparent;
-  border: 2px solid rgba(255, 255, 255, 0.2);
-  backdrop-filter: bluer(20px);
-  border-radius: 10px;
-  padding: 30px 40px;
+  /*background: transparent;*/
+ /* border: 2px solid rgba(255, 255, 255, 0.2); */
+  /*backdrop-filter: bluer(20px); */
+  /*border-radius: 10px;
+  padding: 30px 40px;/*
   /* o 1º valor vai aplicar em cima e em baixo e o 2º aplica aos lados */
-  margin-left: 45vw;
+  margin: auto;
 }
 
 .result {
   border-radius: 10px;
 
   background: transparent;
-  border: 2px solid rgba(255, 255, 255, 0.2);
+  /*border: 2px solid rgba(255, 255, 255, 0.2);*/
   display: block;
   /* Faz com que o botão fique em uma nova linha */
-  margin-top: 15px;
+  margin-top: 280px;
   /* Adiciona um espaço entre os inputs e o botão */
   margin-left: auto;
   margin-right: auto;
-  width: 500px;
-  /* Define a largura */
-  height: 90px;
+
+  height: 150px;
   /* Define a altura*/
+  width: 800px;
+  
   color: #fff;
-  font-size: 48px;
+  font-size: 100px;
   font-weight: bold;
   padding: 12px;
   /* Adiciona um preenchimento interno à caixa de entrada */
 }
+
+/*APLICANDO RESPONSIVIDADE */
+  
