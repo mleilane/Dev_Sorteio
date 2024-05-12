@@ -1,5 +1,3 @@
-/*  */
-
 * {
   /* estilos globai - estamos retirando os estilos aplicados por padrão pelo navegador */
   margin: 0;
@@ -8,18 +6,14 @@
 }
 
 body {
-  overflow: hidden; /* Remove a barra de rolagem */
-
-  /*margin: 0;
-  padding: 0;*/
-  box-sizing: border-box;
-
   background-image: url("./img/logo2.png");
-  /* Define a imagem de fundo */
   background-size: cover;
-  /* Faz com que a imagem cubra toda a área do body */
+  background-repeat: no-repeat;
   background-position: center;
-  /* Centraliza a imagem */
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  overflow: hidden; /* Remove a barra de rolagem */
 }
 
 .container {
@@ -85,7 +79,7 @@ input {
   /* Adiciona um preenchimento interno à caixa de entrada */
   border-radius: 10px;
   /* cantos arredondados  */
-  background-color: #C8A2C8;
+  background-color: #c8a2c8;
   /* cor da caixa do input  */
   border: none;
   margin-top: 40px;
@@ -115,7 +109,7 @@ button {
 
   margin-bottom: 40px;
   border-radius: 10px;
-  background-color: #9400D3;
+  background-color: #9400d3;
   color: #080707;
   /* Define a cor do texto */
   font-size: 80px;
@@ -161,13 +155,6 @@ button {
   width: 40%;
   /* largura*/
   min-height: 50vh;
-
-  /*background: transparent;*/
- /* border: 2px solid rgba(255, 255, 255, 0.2); */
-  /*backdrop-filter: bluer(20px); */
-  /*border-radius: 10px;
-  padding: 30px 40px;/*
-  /* o 1º valor vai aplicar em cima e em baixo e o 2º aplica aos lados */
   margin: auto;
 }
 
@@ -175,8 +162,7 @@ button {
   border-radius: 10px;
 
   background: transparent;
-  /*border: 2px solid rgba(255, 255, 255, 0.2);*/
-  display: block;
+   display: block;
   /* Faz com que o botão fique em uma nova linha */
   margin-top: 280px;
   /* Adiciona um espaço entre os inputs e o botão */
@@ -186,7 +172,7 @@ button {
   height: 150px;
   /* Define a altura*/
   width: 800px;
-  
+
   color: #fff;
   font-size: 100px;
   font-weight: bold;
@@ -195,4 +181,82 @@ button {
 }
 
 /*APLICANDO RESPONSIVIDADE */
-  
+@media (max-width: 1100px) {
+  body {
+    overflow: visible;
+    background-image: none;
+    background-color: #210136;
+  }
+
+
+  .container-interaction {
+    margin-top: auto; /* Remova a margem superior fixa */
+    margin-bottom: auto; /* Remova a margem inferior fixa */
+    width: 80%; /* largura*/
+    min-height: 50vh;
+    margin-left: 12vw;
+  }
+
+  .interaction {
+    display: flex;
+    flex-direction: column; /* Altera a direção para coluna */
+    margin-bottom: 5px;
+    width: 80%;
+    align-items: center; /* Alinha os itens ao centro */
+  }
+
+  .titulo {
+    margin-left: 0; /* Remove a margem esquerda */
+  }
+
+  .titulo h1 {
+    font-size: 45px;
+    text-align: center;
+    margin-top: 25px;
+    font-weight: bold;
+    margin-right: 150px;
+  }
+
+  .titulo-input {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 12px;
+    margin-left: 200px; /* Centraliza o texto */
+  }
+
+  .interaction input {
+    width: 80%;
+    margin-bottom: 5px;
+    height: 10vw;
+    font-size: 25px;
+    margin-top: 25px;
+  }
+
+  input::placeholder {
+    width: 100%;
+    margin-bottom: 5px;
+    height: 10vw;
+    font-size: 25px;
+    margin-top: 25px;
+    align-items: center;
+    position: static;
+  }
+
+  .interaction button {
+    width: 80%;
+    height: 10vw;
+    margin-bottom: 5px;
+    font-size: 25px;
+    background-color: #ebeb09;
+    margin-top: 25px;
+  }
+
+  .result {
+    position: static;
+    margin-top: 20px;
+    font-size: 45px;
+    align-items: center;
+    width: 80%;
+  }
+}
