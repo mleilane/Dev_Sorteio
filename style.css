@@ -48,19 +48,15 @@ body {
 }
 
 .logo {
-  margin-left: 9vw;
-  /* margem esquerda */
+  margin-left: 9vw; /* margem esquerda */
   margin-top: 9vw;
   position: fixed; /* Torna o elemento fixo na tela */
 }
 
 .titulo-input {
-  color: #ffff;
-  /* Define a cor do texto */
-  font-size: 80px;
-  /* Define o tamanho da fonte */
-  margin-left: 14vw;
-  /* margem esquerda */
+  color: #ffff; /* Define a cor do texto */
+  font-size: 80px; /* Define o tamanho da fonte */
+  margin-left: 14vw; /* margem esquerda */
   display: flex;
   align-items: center;
   margin-top: 285px;
@@ -68,88 +64,64 @@ body {
 }
 
 input {
-  width: 300px;
-  /* Define a largura da caixa de entrada */
-  height: 50px;
-  /* Define a altura da caixa de entrada */
-  padding: 10px;
-  /* Adiciona um preenchimento interno à caixa de entrada */
-  border-radius: 10px;
-  /* cantos arredondados  */
-  background-color: #c8a2c8;
-  /* cor da caixa do input  */
+  width: 300px; /* Define a largura da caixa de entrada */
+  height: 50px; /* Define a altura da caixa de entrada */
+  padding: 10px; /* Adiciona um preenchimento interno à caixa de entrada */
+  border-radius: 10px; /* cantos arredondados  */
+  background-color: #c8a2c8; /* cor da caixa do input  */
   border: none;
   margin-top: 40px;
   margin-bottom: 40px;
   cursor: pointer;
   font-size: 80px;
-  text-align: center;
-  /* Centraliza o texto do placeholder */
+  text-align: center; /* Centraliza o texto do placeholder */
 }
 
 input::placeholder {
-  color: #080707;
-  /* Define a cor do texto do placeholder */
-  font-size: 80px;
-  /* Define o tamanho da fonte do placeholder */
-  font-weight: lighter;
-  /* Define a espessura da fonte do placeholder */
-  text-align: center;
-  /* Centraliza o texto do placeholder */
+  color: #080707; /* Define a cor do texto do placeholder */
+  font-size: 80px; /* Define o tamanho da fonte do placeholder */
+  font-weight: lighter; /* Define a espessura da fonte do placeholder */
+  text-align: center; /* Centraliza o texto do placeholder */
 }
 
 button {
-  width: 500px;
-  /* Define a largura */
-  height: 90px;
-  /* Define a altura*/
+  width: 500px; /* Define a largura */
+  height: 90px; /* Define a altura*/
   margin-bottom: 40px;
   border-radius: 10px;
   background-color: #9400d3;
-  color: #080707;
-  /* Define a cor do texto */
-  font-size: 80px;
-  /* Define o tamanho da fonte */
-  font-weight: bold;
-  /* Define a espessura da fonte */
+  color: #080707; /* Define a cor do texto */
+  font-size: 80px; /* Define o tamanho da fonte */
+  font-weight: bold; /* Define a espessura da fonte */
   border: none;
   cursor: pointer;
 }
 
 .interaction {
-  text-align: center;
-  /* Alinha os elementos internos ao centro */
+  text-align: center; /* Alinha os elementos internos ao centro */
 }
 
 .interaction input {
-  display: inline-block;
-  /* Faz com que os inputs fiquem lado a lado */
-  vertical-align: top;
-  /* Alinha os inputs verticalmente no topo */
-  margin-right: 10px;
-  /* Adiciona um espaço entre os inputs */
-  height: 150px;
-  /* Define a altura*/
+  display: inline-block; /* Faz com que os inputs fiquem lado a lado */
+  vertical-align: top; /* Alinha os inputs verticalmente no topo */
+  margin-right: 10px; /* Adiciona um espaço entre os inputs */
+  height: 150px; /* Define a altura*/
   width: 800px;
 }
 
 .interaction button {
-  display: block;
-  /* Faz com que o botão fique em uma nova linha */
-  margin-top: 100px;
-  /* Adiciona um espaço entre os inputs e o botão */
+  display: block; /* Faz com que o botão fique em uma nova linha */
+  margin-top: 100px; /* Adiciona um espaço entre os inputs e o botão */
   margin-left: auto;
   margin-right: auto;
-  height: 150px;
-  /* Define a altura*/
+  height: 150px; /* Define a altura*/
   width: 800px;
 }
 
 .container-interaction {
   margin-top: 9vw;
   position: fixed; /* Torna o elemento fixo na tela */
-  width: 40%;
-  /* largura*/
+  width: 40%; /* largura*/
   min-height: 50vh;
   margin: auto;
 }
@@ -157,20 +129,16 @@ button {
 .result {
   border-radius: 10px;
   background: transparent;
-  display: block;
-  /* Faz com que o botão fique em uma nova linha */
-  margin-top: 280px;
-  /* Adiciona um espaço entre os inputs e o botão */
+  display: block; /* Faz com que o botão fique em uma nova linha */
+  margin-top: 280px; /* Adiciona um espaço entre os inputs e o botão */
   margin-left: auto;
   margin-right: auto;
-  height: 150px;
-  /* Define a altura*/
+  height: 150px; /* Define a altura*/
   width: 800px;
   color: #fff;
   font-size: 100px;
   font-weight: bold;
-  padding: 12px;
-  /* Adiciona um preenchimento interno à caixa de entrada */
+  padding: 12px; /* Adiciona um preenchimento interno à caixa de entrada */
 }
 
 /*APLICANDO RESPONSIVIDADE */
@@ -206,7 +174,7 @@ button {
     text-align: center;
     margin-top: 25px;
     font-weight: bold;
-    margin-right: 22VW;
+    margin-right: 22vw;
   }
 
   .titulo-input {
@@ -214,7 +182,7 @@ button {
     text-align: center;
     margin-top: 25px;
     margin-bottom: 12px;
-    margin-left: 10VW; /* Centraliza o texto */
+    margin-left: 10vw; /* Centraliza o texto */
   }
 
   .interaction input {
@@ -254,13 +222,12 @@ button {
 }
 
 @media (max-width: 400px) {
-  
-    .titulo h1 {
+  .titulo h1 {
     font-size: 29px;
     text-align: center;
     margin-top: 25px;
     font-weight: bold;
-    margin-right: 22VW;
+    margin-right: 22vw;
   }
 
   .titulo-input {
@@ -268,7 +235,7 @@ button {
     text-align: center;
     margin-top: 25px;
     margin-bottom: 12px;
-    margin-left: 5VW; /* Centraliza o texto */
+    margin-left: 5vw; /* Centraliza o texto */
   }
 
   .interaction input {

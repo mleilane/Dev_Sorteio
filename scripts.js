@@ -6,5 +6,5 @@ function generateNumber() {
 
   //alert(result)
   const resultElement = document.querySelector(".result");
-  resultElement.textContent = result; // ou resultElement.innerHTML = result;
+  resultElement.textContent = result;
 }
