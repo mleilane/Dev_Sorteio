@@ -255,10 +255,8 @@ button {
 
 @media (max-width: 400px) {
   
-  
-
-  .titulo h1 {
-    font-size: 30px;
+    .titulo h1 {
+    font-size: 29px;
     text-align: center;
     margin-top: 25px;
     font-weight: bold;
@@ -266,18 +264,18 @@ button {
   }
 
   .titulo-input {
-    font-size: 22px;
+    font-size: 20px;
     text-align: center;
     margin-top: 25px;
     margin-bottom: 12px;
-    margin-left: 10VW; /* Centraliza o texto */
+    margin-left: 5VW; /* Centraliza o texto */
   }
 
   .interaction input {
     width: 80%;
     margin-bottom: 5px;
     height: 10vw;
-    font-size: 22px;
+    font-size: 20px;
     margin-top: 25px;
   }
 
@@ -285,7 +283,7 @@ button {
     width: 100%;
     margin-bottom: 5px;
     height: 10vw;
-    font-size: 22px;
+    font-size: 20px;
     margin-top: 25px;
     align-items: center;
     position: static;
@@ -295,7 +293,7 @@ button {
     width: 80%;
     height: 10vw;
     margin-bottom: 5px;
-    font-size: 22px;
+    font-size: 20px;
     background-color: #ebeb09;
     margin-top: 25px;
   }
