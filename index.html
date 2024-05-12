@@ -5,20 +5,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    
+
     <!-- atalho para vincular o CSS ao HTML e estrutura HTML { link:css }  -->
     <title>DevSorteio</title>
   </head>
 
   <body>
     <main class="container">
-        <!--
-      <div class="logo">
-        <img src="./img/logo2.png" alt="Imagem" />
-      </div>
-
-       -->
-
       <div class="container-interaction">
         <div class="titulo">
           <h1>DevSorteio</h1>
@@ -27,14 +20,24 @@
         <p class="titulo-input">Sortear um número</p>
 
         <div class="interaction">
-          <input placeholder="entre" type="number" name="prim_numero"  class="input-min"/>
-          <input placeholder="e" type="number" name="seg_numero" class="input-max"/>
-          <button onclick="generateNumber()">Sortear</button> <!-- incluso o ouvinte de click no botao -->
+          <input
+            placeholder="entre"
+            type="number"
+            name="prim_numero"
+            class="input-min"
+          />
+          <input
+            placeholder="e"
+            type="number"
+            name="seg_numero"
+            class="input-max"
+          />
+          <button onclick="generateNumber()">Sortear</button>
+          <!-- incluso o ouvinte de click no botao -->
           <div class="result">00</div>
         </div>
-        
       </div>
     </main>
   </body>
-  <script src="scripts.js"> </script>
+  <script src="scripts.js"></script>
 </html>

@@ -36,7 +36,6 @@ body {
   /* Define o tamanho da fonte */
   font-weight: bold;
   /* Define a espessura da fonte*/
-  /*margin-left: 5vw;*/
   margin-top: 10px;
 }
 
@@ -60,8 +59,6 @@ body {
   /* Define a cor do texto */
   font-size: 80px;
   /* Define o tamanho da fonte */
-  /*font-weight: bold;*/
-  /* Define a espessura da fonte*/
   margin-left: 14vw;
   /* margem esquerda */
   display: flex;
@@ -106,7 +103,6 @@ button {
   /* Define a largura */
   height: 90px;
   /* Define a altura*/
-
   margin-bottom: 40px;
   border-radius: 10px;
   background-color: #9400d3;
@@ -160,19 +156,16 @@ button {
 
 .result {
   border-radius: 10px;
-
   background: transparent;
-   display: block;
+  display: block;
   /* Faz com que o botão fique em uma nova linha */
   margin-top: 280px;
   /* Adiciona um espaço entre os inputs e o botão */
   margin-left: auto;
   margin-right: auto;
-
   height: 150px;
   /* Define a altura*/
   width: 800px;
-
   color: #fff;
   font-size: 100px;
   font-weight: bold;
@@ -188,10 +181,9 @@ button {
     background-color: #210136;
   }
 
-
   .container-interaction {
-    margin-top: auto; /* Remova a margem superior fixa */
-    margin-bottom: auto; /* Remova a margem inferior fixa */
+    margin-top: auto;
+    margin-bottom: auto;
     width: 80%; /* largura*/
     min-height: 50vh;
     margin-left: 12vw;
