@@ -3,6 +3,9 @@
 <p>Este projeto foi desenvolvido como parte de um desafio do curso de Desenvolvedor FullStack do <a href="https://rodolfomori.com.br/devclub"> Dev Club </a>,
   com o objetivo de praticar habilidades em JavaScript utilizando Math.random(), além de HTML e CSS. </p>
 
+Disponivel no link: <a href="https://mleilane.github.io/Dev_Sorteio/"> DevSorteio 🍀 </a> 
+ 
+
 <h2 align="center"> Descrição: 🧐  </h2>  
 <p> O DevSorteio é uma aplicação simples que permite ao usuário sortear um número dentro de um intervalo especificado.
   Ele é construído com HTML para a estrutura da página, CSS para estilização e JavaScript para a lógica de sorteio.</p>
